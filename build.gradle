@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin:'application'
+
+mainClassName = 'com.tripwire.hiring.test.Client'
+
+run {
+  standardInput = System.in
+}
+
+dependencies {
+  testCompile(group: 'junit', name: 'junit', version: '4.10')
+  testCompile(group: 'org.mockito', name: 'mockito-core', version: '1.8.5')
+  compile(group: 'com.google.guava', name: 'guava', version: '17.0')
+}
+
+task runServer(type: JavaExec) {
+  main = 'com.tripwire.hiring.test.Server'
+  classpath = sourceSets.main.runtimeClasspath
+}
+
+repositories {
+  mavenCentral()
+}
