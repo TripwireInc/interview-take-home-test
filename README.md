@@ -39,7 +39,7 @@ We will be evaluating this project on:
 * code review of design, comments, maintainability.
 
 ### Describe the System
-Please give a detailed description of what this system does, and how it's moving parts work together.
+Please edit this README.md to provide a detailed description of what this system does, and how it's moving parts work together.
 
 ### Test Plan
-Please give a detailed description of how you would test this system.
+Please edit this README.md to provide a detailed description of additional testing (manual and/or automated) that you would perform for this codebase.
