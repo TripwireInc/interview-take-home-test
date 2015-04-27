@@ -3,10 +3,7 @@ interview-take-home-test
 ## First Things First
 Hello and welcome! This 'take home' is a way for us to evaluate your skills as a developer. 
 
-Please follow
-[these instructions](https://help.github.com/articles/duplicating-a-repository)
-for creating a place to work on this test. More explicitly please do not use the built-in GitHub fork functionality. Make your repo private in the github settings, and add users @DevonGleeson
-and @DavidWhitlock as contributors, so we can see your results. If you don't have a GitHub account that allows you to create private repositories, consider [this](https://education.github.com/discount_requests/new). If none of these are options, please feel free to contact us, and we can make other arangements.
+Please make a clone of this repo. Please do not fork. When you have completed your work, please use [git-diff](http://stackoverflow.com/questions/1800783/compare-local-git-branch-with-remote-branch) to create a diff based off of ```origin/master``` and submit it to the manager you recieved this link from.
 
 ### Running
 From the command line start the server by running this command:
